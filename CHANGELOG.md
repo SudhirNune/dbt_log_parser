@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.2.2
+
+- [bugfix]: Unable to detect summary when the DBT object are exactly one, like 1 model, 1 test, 1 seed file, 1 source, 1 operation, 1 macro, 1 analyse ; closes #25 @sudhirnune
+
 ## v0.2.1
 
 ### 🐛 Bug Fixes
