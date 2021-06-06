@@ -67,8 +67,8 @@ class DbtLogParser(metaclass=LoggingMixin):
         m = re.search("Running with dbt", line)
 
         m = re.search(
-            r"Found (\d+) models, (\d+) tests, (\d+) snapshots, (\d+) analyses, "
-            + r"(\d+) macros, (\d+) operations, (\d+) seed files, (\d+) sources",
+            r"Found (\d+) models?, (\d+) tests?, (\d+) snapshots?, (\d+) analyses?, "
+            + r"(\d+) macros?, (\d+) operations?, (\d+) seed files?, (\d+) sources?",
             line,
         )
 
